@@ -1,5 +1,5 @@
 const addressInp = document.getElementById("addressInput");
-const buhari = document.getElementById("checkButton");
+const checkButton = document.getElementById("checkButton");
 const result = document.getElementById("result");
 
 const leaves = [
@@ -15,7 +15,7 @@ const leaves = [
   "0x8b360dadcfa85a8c660ea67a90651fd393517f9a",
 ];
 
-buhari.addEventListener("click", (e) => {
+checkButton.addEventListener("click", (e) => {
   e.preventDefault();
   console.log("clicked")
   async function execute() {
